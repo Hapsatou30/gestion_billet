@@ -11,10 +11,11 @@ if(isset($_POST['submit'])){
     $statut=$_POST['statut'];
     $validite=$_POST['validite'];
     $trajet=$_POST['trajet'];
+    $id_client=$_POST['id_client'];
     
     // Construire la requête SQL pour insérer les données dans la table "billet"
-    $sql = "INSERT INTO billet(`date`, `time`, `prix`, `statut`, `validite`, `trajet`) 
-            VALUES ('$date', '$time', '$prix', '$statut', '$validite', '$trajet')";
+    $sql = "INSERT INTO billet(`date`, `time`, `prix`, `statut`, `validite`, `trajet`, `id_client`) 
+            VALUES ('$date', '$time', '$prix', '$statut', '$validite', '$trajet', '$id_client')";
     
     // Exécuter la requête SQL
     $result = mysqli_query($connexion,$sql);

@@ -46,8 +46,13 @@
                         <label for="">Trajet</label>
                         <input type="text" name="trajet" class="form-control">
                     </div>
+                    <!-- Champ de saisie de l'id de l'utilisateur -->
+                    <div class="form-group col-lg-6">
+                        <label for="">L'identifiant du client</label>
+                        <input type="text" name="id_client" class="form-control">
+                    </div>
                     <!-- Bouton de soumission du formulaire -->
-                    <div class="form-group col-lg-8">
+                    <div class="form-group col-lg-6">
                         <input type="submit" name="submit" class="form-control" value="ACHETER">
                     </div>
                 </div>

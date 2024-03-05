@@ -86,22 +86,23 @@
 .card-text {
     color: #fff;
 }
-.client,.trajet_tel,.datetime,.price{
+.client,.trajet_tel,.datetime,.price,.update_delete{
     display: flex;
     gap: 30px;
     align-items: center;
     justify-content: space-between;
     margin-top: 15px;
 }
-.nom, .trajet,.date,.prix{
+.nom, .trajet,.date,.prix,.update{
     float: left;
 }
-.coordonnees, .tel,.time,.validite{
+.coordonnees, .tel,.time,.validite,.delete{
     float: right;
     
 }
-span{
-    color: #FE7A15;
+.update,.delete{
+    background-color: #ffff;
+    border-radius: 5px;
 }
 
 

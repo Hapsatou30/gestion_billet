@@ -166,6 +166,11 @@ footer {
     color: #ffff;
     padding: 40px 0;
 }
+footer img{
+    background-color: #ffff;
+    width: 110px;
+    transition: transform 0.3s ease-in-out; 
+}
 
 footer h3 {
     color: #FE7A15;

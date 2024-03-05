@@ -10,6 +10,7 @@
     <!-- Inclure le script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -75,7 +76,7 @@
                         </div>
                         <!-- Bouton de soumission du formulaire -->
                         <div class="form-group col-lg-6">
-                            <input type="submit" name="submit" class="form-control" value="ACHETER">
+                            <input type="submit" name="submit" class="form-control" value="RESERVER">
                         </div>
                     </div>
                 </form>

@@ -36,6 +36,11 @@ if(isset($_GET["id_billet"])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </head>
+<style>
+    body{
+        background-color: #F5F5F5;
+    }
+</style>
 <body>
 <header>
         <nav class="navbar navbar-expand-lg">

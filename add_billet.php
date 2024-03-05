@@ -26,7 +26,7 @@ if(isset($_POST['submit'])){
         die("La connexion a échoué : " . $connexion->error);
     } else {
         // Rediriger vers la page d'accueil après l'insertion réussie
-        header('Location: accueil.php');
+        header('Location: read_billet.php');
         // Arrêter l'exécution du script
         exit;
     }

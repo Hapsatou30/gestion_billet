@@ -85,9 +85,6 @@
         </div>
         </div>
     </section>
-    <?php
-        require_once "read_billet.php";
-    ?>
 </div>
 </body>
 </html>

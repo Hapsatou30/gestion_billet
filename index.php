@@ -54,7 +54,7 @@
                             <img src="./images/1000_F_100408242_ODbvc2HHZOC5YtSIdJrXlWxLKapI2iEG.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">CHINE</h5>
-                                <a href="#" class=" bouton ">RESERVEZ</a>
+                                <a href="Reserver.php" class=" bouton ">RESERVEZ</a>
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                         <img src="./images/1000_F_170667573_7EnaDhe9xo1elwC9fAVjy02BPiJrZ9PW.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">DUBAI</h5>
-                            <a href="#" class=" bouton ">RESERVEZ</a>
+                            <a href="Reserver.php" class=" bouton ">RESERVEZ</a>
                         </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                         <img src="./images/1000_F_251121174_5xQyUCqSrkswyLHbM9Ne8DQ8Qb0o1HGw.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">TOKYO</h5>
-                            <a href="#" class=" bouton ">RESERVEZ</a>
+                            <a href="Reserver.php" class=" bouton ">RESERVEZ</a>
                         </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                         <img src="./images/1000_F_264549883_ayKb5wQ3jAE0c4EfXan3tJhCHYCyd8Q4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">PARIS</h5>
-                            <a href="#" class=" bouton ">RESERVEZ</a>
+                            <a href="Reserver.php" class=" bouton ">RESERVEZ</a>
                         </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                         <img src="./images/beau-pont-manhattan-new-york-etats-unis_181624-48458.avif" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">NEW YORK</h5>
-                            <a href="#" class=" bouton ">RESERVEZ</a>
+                            <a href="Reserver.php" class=" bouton ">RESERVEZ</a>
                         </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                         <img src="./images/1000_F_87517185_TnJGDTGa3PKJKvakVdw6ExM5fggHO4mi.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">MECQUE</h5>
-                            <a href="#" class=" bouton ">RESERVEZ</a>
+                            <a href="Reserver.php" class=" bouton ">RESERVEZ</a>
                         </div>
                         </div>
                     </div>

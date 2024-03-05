@@ -45,9 +45,98 @@
                 </form>
             </div>
         </section>
+        <section class="destinations">
+            <div class="container">
+                <h2>Destinations populaires</h2>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./images/1000_F_100408242_ODbvc2HHZOC5YtSIdJrXlWxLKapI2iEG.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">CHINE</h5>
+                                <a href="#" class=" bouton ">RESERVEZ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                        <img src="./images/1000_F_170667573_7EnaDhe9xo1elwC9fAVjy02BPiJrZ9PW.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">DUBAI</h5>
+                            <a href="#" class=" bouton ">RESERVEZ</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                        <img src="./images/1000_F_251121174_5xQyUCqSrkswyLHbM9Ne8DQ8Qb0o1HGw.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">TOKYO</h5>
+                            <a href="#" class=" bouton ">RESERVEZ</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                        <img src="./images/1000_F_264549883_ayKb5wQ3jAE0c4EfXan3tJhCHYCyd8Q4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">PARIS</h5>
+                            <a href="#" class=" bouton ">RESERVEZ</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                        <img src="./images/beau-pont-manhattan-new-york-etats-unis_181624-48458.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">NEW YORK</h5>
+                            <a href="#" class=" bouton ">RESERVEZ</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                        <img src="./images/1000_F_87517185_TnJGDTGa3PKJKvakVdw6ExM5fggHO4mi.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MECQUE</h5>
+                            <a href="#" class=" bouton ">RESERVEZ</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+   
+        </section>
+
     </main>
     <footer>
-        <p>&copy; 2024 Réservez vos billets</p>
-    </footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>A propos de nous</h3>
+                    <p> Recherchez et réservez vos billets de voyage en toute simplicité.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Réservez un billet</a></li>
+                        <li><a href="#">Liste des billets</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contactez-nous</h3>
+                    <p>Adresse : 224 Rue, Dakar, SÉNÉGAL</p>
+                    <p>Email : simplon@gmail.com</p>
+                    <p>Téléphone : 775764323</p>
+                </div>
+            </div>
+            <div class="copyright">
+            <p>&copy; 2024 Réservez vos billets</p>
+            </div>
+        </div>
+</footer>
+
+   
 </body>
 </html>

@@ -56,9 +56,9 @@
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                     <div class="col">
                         <div class="card">
-                            <img src="./images/1000_F_100408242_ODbvc2HHZOC5YtSIdJrXlWxLKapI2iEG.jpg" class="card-img-top" alt="...">
+                            <img src="./images/palais-communication-au-crepuscule-ete-madrid_1398-2169.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">CHINE</h5>
+                                <h5 class="card-title">Madrid</h5>
                                 <a href="Reserver.php" class=" bouton ">RESERVEZ</a>
                             </div>
                         </div>

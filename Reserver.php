@@ -33,7 +33,7 @@
         </nav>
      </header>
     <section class="formulaire">
-        <h1>ACHAT DE BILLET</h1>
+        <h1>RESERVER UN BILLET</h1>
         <div class="container">
             <!-- Formulaire d'achat de billet -->
             <div class="col-md-6">
@@ -49,10 +49,33 @@
                             <label for="">Heure de réservation</label>
                             <input type="time" name="time" class="form-control">
                         </div>
+                          <!-- Champ de saisie du trajet -->
+                          <div class="form-group col-lg-6">
+                            <label for="trajet">Trajet</label>
+                            <select name="trajet" id="trajet" class="form-control" style="margin-bottom: 10px; padding: 8px; border: 1px solid #ccc; border-radius: 22px; width: 100%; max-width: 300px; border-top: none; border-left: none; border-right: none; border-bottom: 1px solid #3011BC;" onchange="updatePrice()">
+                                <option value="">Sélectionnez un trajet</option>
+                                <optgroup label="Trajets depuis Dakar">
+                                    <option value="dakar-paris" data-price="450 100 XOF">Dakar - Paris</option>
+                                    <option value="dakar-new-york" data-price="535 000 XOF">Dakar - New York</option>
+                                    <option value="dakar-londres" data-price="880 750 XOF">Dakar - Londres</option>
+                                    <option value="dakar-tokyo" data-price="500 00 XOF">Dakar - Tokyo</option>
+                                    <option value="dakar-dubai" data-price="414 400 XOF">Dakar - Dubaï</option>
+                                    <option value="dakar-toronto" data-price="397 900 XOF">Dakar - Mecque</option>
+                                    <option value="dakar-sydney" data-price="275 000 XOF">Dakar - Sydney</option>
+                                    <option value="dakar-rio-de-janeiro" data-price="450 000 XOF">Dakar - Rio de Janeiro</option>
+                                    <option value="dakar-hong-kong" data-price="817 300 XOF">Dakar - Hong Kong</option>
+                                    <option value="dakar-singapore" data-price="450 500 XOF">Dakar - Singapour</option>
+                                    <option value="dakar-rome" data-price="200 000 XOF">Dakar - Rome</option>
+                                    <option value="dakar-berlin" data-price="291 539 XOF">Dakar - Berlin</option>
+                                    <option value="dakar-madrid" data-price="194400 XOF">Dakar - Madrid</option>
+                                    <option value="dakar-moscou" data-price="397 900 XOF">Dakar - Moscou</option>
+                                </optgroup>
+                            </select>
+                        </div>
                         <!-- Champ de saisie du prix -->
                         <div class="form-group col-lg-6">
-                            <label for="">Prix</label>
-                            <input type="text" name="prix" class="form-control">
+                        <label for="prix">Prix</label>
+                        <input type="text" name="prix" id="prix" class="form-control" readonly>
                         </div>
                         <!-- Champ de saisie du statut -->
                         <div class="form-group col-lg-6">
@@ -64,11 +87,8 @@
                             <label for="">Validité</label>
                             <input type="text" name="validite" class="form-control">
                         </div>
-                        <!-- Champ de saisie du trajet -->
-                        <div class="form-group col-lg-6">
-                            <label for="">Trajet</label>
-                            <input type="text" name="trajet" class="form-control">
-                        </div>
+                      
+
                         <!-- Champ de saisie de l'id de l'utilisateur -->
                         <div class="form-group col-lg-6">
                             <label for="">L'identifiant du client</label>
@@ -87,5 +107,6 @@
         </div>
     </section>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
